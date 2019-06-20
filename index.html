@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
 
+  <link rel="icon" href="img/favicon.ico" rel="icon"  type="image/x-icon"/>
+
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js"></script>
 
@@ -22,7 +24,7 @@
 <body onload="start()">
 
   <div class="everything">
-    <nav class="navbar navbar-background-languages fixed-top" id="languages">
+    <nav class="navbar fixed-top sized-menu" id="languages">
       <div class="mx-auto order-0">
         <a class="navbar-icon-link" onclick="changeLanguage('pt-BR')" id="portuguese-selector">Português</a>
         <a class="navbar-icon-link" onclick="changeLanguage('en-US')" id="english-selector">English</a>
@@ -32,50 +34,62 @@
     <div class="container vertical-center">
 
       <div id="english" class="show">
-        <h1 class="greetings">HELLO</h1>
+        <h1 class="greetings">HELLO!</h1>
         <div class="content">
           <p>
-            I'm Daniel Dias de Lima, a software developer currently living in São Paulo, Brazil. I'm 20 years old or so, and a
-            Computer Science student.
+            I'm <span class="highlighted">Daniel D. de Lima</span>, a software developer currently living in <span class="highlighted">São Paulo, Brazil</span>. I'm 20 years old or so, and a
+            <span class="highlighted">Computer Science</span> student.
           </p>
           <p>
             Following some of the links below you'll come accross with some of my work and past experiences. Their
-            subjects range from mobile and backend development, architecture specification and some other things.
+            subjects range from <span class="highlighted">mobile</span> and <span class="highlighted">backend development</span>, <span class="highlighted">architecture specification</span> and some other things.
+          </p>
+          <p>
+            It's a pleasure!
           </p>
         </div>
+
+        <div class="credits">
+          Design based on <a target="_blank" href="https://cstipkovic.github.io/">Clauber Stipkovic website</a>, which was based on <a target="_blank" href="http://tinyurl.com/cbbbzwe">Jonas Galvez (old) web site</a>.
+        </div>
+
       </div>
 
       <div id="portuguese" class="hide">
-        <h1 class="greetings">OLÁ</h1>
+        <h1 class="greetings">OLÁ!</h1>
         <div class="content">
           <p>
-            Meu nome é Daniel Dias de Lima, eu sou um programador residente da cidade de São Paulo, Brasil. Tenho meus 20 e poucos
-            anos, atualmente estudante de Ciência da Computação.
+            Meu nome é <span class="highlighted">Daniel D. de Lima</span>, eu sou um programador residente da cidade de <span class="highlighted">São Paulo, Brasil</span>. Tenho meus 20 e poucos
+            anos, atualmente estudante de <span class="highlighted">Ciência da Computação</span>.
           </p>
           <p>
             Seguindos os links abaixo você vai cruzar com alguns dos meus trabalhos e experiências passadas. Os
-            assuntos trabalhados variam de computação móvel, desenvolvimento de servidores backend, especificação de
-            arquiteturas, e algumas outras coisinhas.
+            assuntos trabalhados variam de <span class="highlighted">computação móvel</span>, <span class="highlighted">desenvolvimento de servidores backend</span>, <span class="highlighted">especificação de arquiteturas </span>, e algumas outras coisinhas.
           </p>
+          <p>
+            É um prazer!
+          </p>
+        </div>
+
+        <div class="credits">
+          Design baseado no <a target="_blank" href="https://cstipkovic.github.io/">site do Clauber Stipkovic</a>, por sua vez baseado no <a target="_blank" href="http://tinyurl.com/cbbbzwe">site (antigo) do Jonas Galvez</a>.
         </div>
       </div>
 
     </div>
 
-    <nav class="navbar fixed-bottom navbar-background">
+    <nav class="navbar fixed-bottom sized-menu">
       <div class="mx-auto order-0">
-        <a class="navbar-icon-link navbar-brand" href="https://www.linkedin.com/in/daniel-dias-de-lima/">
+        <a class="navbar-icon-link navbar-brand" href="https://www.linkedin.com/in/daniel-dias-de-lima/" target="_blank">
           <i class="fab fa-linkedin fa-2x"></i>
         </a>
-        <a class="navbar-icon-link navbar-brand" href="https://github.com/DanielDDDL">
+        <a class="navbar-icon-link navbar-brand" href="https://github.com/DanielDDDL" target="_blank">
           <i class="fab fa-github-square fa-2x"></i>
         </a>
 
         <a class="navbar-icon-link navbar-brand" href="mailto: daniel.dddl.pdf@gmail.com">
           <i class="fas fa-envelope-square fa-2x"></i>
         </a>
-
-
       </div>
     </nav>
   </div>
